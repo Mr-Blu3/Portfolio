@@ -13,7 +13,6 @@ function init()
 		'Blogg': '#',
 		'Cv' : '#Cv'
 	};
-		//"<li><a id="+s_aElements[i]+" href=#"+s_aElements[i]+">"+s_aElements[i]+"</a></li>"
 	
 	for (var i in s_aElements) {
 
@@ -175,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	console.log();
 	document.getElementById("Cv").onclick = function(){
   		window.open(
-  			'http://'+window.location.host+'/e-handel/wp/mini-portfolio/wp-content/uploads/2016/09/Pontus.Pettersson.Cv_.pdf', '_blank'
+  			'http://'+window.location.host+'/Portfolio/wp-content/uploads/2016/09/Pontus.Pettersson.Cv_.pdf', '_blank'
 		).focus();
 	};
     

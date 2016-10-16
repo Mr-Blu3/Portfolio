@@ -4,15 +4,14 @@ Deny from all
 Allow from 155.4.133.228 10.0.2.2
 Deny from all
 </files>
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /e-handel/wp/mini-portfolio/
+RewriteBase /Portfolio/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /e-handel/wp/mini-portfolio/index.php [L]
+RewriteRule . /Portfolio/index.php [L]
 </IfModule>
 
 # END WordPress
