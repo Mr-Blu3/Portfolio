@@ -890,6 +890,11 @@ p.lead {
   p {
     font-size: 12px;
   }
+  .no-sidebar li {
+    display: block !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
 }
 a, a:visited, a:focus, a:active, a:hover {
   text-decoration: none;
@@ -1480,7 +1485,7 @@ nav.fixed.scrolled {
 }
 @media all and (max-width: 991px) {
   .site-title-container{
-    width: 84%;
+    width: 80%;
   }
   .nav-bar, .nav-bar .module-group, .nav-bar .module {
     height: auto;
@@ -2587,6 +2592,7 @@ section {
 
 .bg-header {
   background: url('images/bg-flyer.JPG') no-repeat fixed;
+  background-size: 100% 100%; 
 }
 
 .bg-height-hide {
@@ -2612,20 +2618,20 @@ section {
 
 .no-sidebar li {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 40%;
   margin: 100px 0;
 }
 
 .no-sidebar li img {
   width: 100%;
-  height: 450px;
+  height: auto;
   margin: 10% 0;
 }
 
 .no-sidebar li p {
-  width: 330px;
-  margin: 30%;
+  
+  margin: 10%;
   font-size: 20px;
 }
 
@@ -2691,4 +2697,8 @@ section {
 }
 .exemplo a {
   color: #fff !important;
+}
+
+.entry-summary {
+  margin: 0 0 10px 0;
 }

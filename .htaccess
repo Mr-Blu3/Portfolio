@@ -7,11 +7,11 @@ Deny from all
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Portfolio/
+RewriteBase /e-handel/wp/Portfolio/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Portfolio/index.php [L]
+RewriteRule . /e-handel/wp/Portfolio/index.php [L]
 </IfModule>
 
 # END WordPress
