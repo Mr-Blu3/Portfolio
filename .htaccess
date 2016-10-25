@@ -15,3 +15,5 @@ RewriteRule . /e-handel/wp/Portfolio/index.php [L]
 </IfModule>
 
 # END WordPress
+ 
+   
