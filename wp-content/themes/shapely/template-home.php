@@ -44,7 +44,7 @@
 			<h1>Data/It</h1>
 			<p class="mb32">Utbildningen på medieinstitutet (webbutveckling inom e-handel) har gett mig goda kunskaper om webbutveckling och responsiv webbutveckling samt mycket mer.
 			</p>
-			<a class="btn btn-lg btn-white" href=<?= get_site_url()."/om-pontus/" ?>>Om mig</a>
+			<a class="btn btn-lg btn-white" href=<?= get_site_url()."/om-mig/" ?>>Om mig</a>
 		</div>
     </div>
 </div>
