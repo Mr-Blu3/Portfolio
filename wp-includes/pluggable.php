@@ -328,8 +328,8 @@ function wp_mail( $to, $subject, $message, $headers = '', $attachments = array()
 			$sitename = substr( $sitename, 4 );
 		}
 
-		//$from_email = 'wordpress@' . $sitename;
-		$from_email = 'wordpress@138.68.143.251';
+		$from_email = 'wordpress@' . $sitename;
+		//$from_email = 'wordpress@138.68.143.251';
 	}
 
 	/**
