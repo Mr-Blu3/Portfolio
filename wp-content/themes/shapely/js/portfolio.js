@@ -36,10 +36,7 @@ function init()
 */
 
 function initSmoothScrolling() {
-    if (isCssSmoothSCrollSupported()) {
-        document.getElementById('css-support-msg').className = 'supported';
-        return;
-    }
+
     var duration = 400;
     var pageUrl = location.hash
         ? stripHash(location.href)
@@ -171,7 +168,7 @@ function jump(target, options) {
 document.addEventListener('DOMContentLoaded', function() {
 	initSmoothScrolling();
 	init();
-	console.log();
+
 	document.getElementById("Cv").onclick = function(){
   		window.open(
   			'http://'+window.location.host+'/Portfolio/wp-content/uploads/2016/09/Pontus.Pettersson.Cv_.pdf', '_blank'

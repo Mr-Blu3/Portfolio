@@ -161,11 +161,10 @@ function shapely_scripts() {
     wp_enqueue_style( 'shapely-style', get_stylesheet_uri() );
 
 	
-	wp_enqueue_script( 'shapely-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	//wp_enqueue_script( 'shapely-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'shapely-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20160115', true );
+	//wp_enqueue_script( 'shapely-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20160115', true );
 
-	wp_enqueue_script( 'portfolio', get_template_directory_uri() . '/js/portfolio.js', array(), Null, true);
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -186,6 +185,7 @@ function shapely_scripts() {
     if ( is_page_template( 'template-home.php' ) ) {
         wp_enqueue_script( 'shapely-parallax', get_template_directory_uri() . '/js/parallax.min.js', array('jquery'), '20160115', true );
     }
+	wp_enqueue_script( 'portfolio', get_template_directory_uri() . '/js/portfolio.js', array(), Null, true);
 
     wp_enqueue_script( 'shapely-scripts', get_template_directory_uri() . '/js/shapely-scripts.js', array('jquery'), '20160115', true );
 }
