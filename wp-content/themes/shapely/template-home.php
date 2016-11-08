@@ -17,7 +17,6 @@
 		<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 			<h1>Det är min dröm/Pontus Pettersson</h1>
 			<p class="mb32">Frontend Utvecklare/Grafisk Designer</p>
-			<a class="btn btn-lg btn-white" href=<?= get_site_url().'/kontakt' ?>>Kontakt</a>
 			<a class="btn btn-lg btn-white" href="#mina-projekt">Mina Projekt</a>
 		</div>
     </div>
