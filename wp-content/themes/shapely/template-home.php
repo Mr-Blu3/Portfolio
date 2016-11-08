@@ -15,7 +15,7 @@
     <?php endif; ?>
 	<div class="vert-mid top-parallax-section">
 		<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-			<h1>It's my dream and my life</h1>
+			<h1>Det är min dröm/Pontus Pettersson</h1>
 			<p class="mb32">Frontend Utvecklare/Grafisk Designer</p>
 			<a class="btn btn-lg btn-white" href=<?= get_site_url().'/kontakt' ?>>Kontakt</a>
 			<a class="btn btn-lg btn-white" href="#mina-projekt">Mina Projekt</a>
@@ -62,6 +62,7 @@
 <div id="mina-projekt" class="bg-black">
 	<h1>Mina Projekt</h1>
 	<p class="mb32">Av Pontus Pettersson</p>
+	
 	<?php echo do_shortcode('[responsive-portfolio]'); ?>
 </div>
 

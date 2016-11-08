@@ -21,13 +21,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-<!--[if IE]>
-   <div style='position:absolute;top:0px;left:0px;width:100%;height:100%;background:white;padding-top:50%;text-align:center;'>
-          This site is currently disabled for IE users
-   </div>
-<![endif]-->
-
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'shapely' ); ?></a>
     <header id="masthead" class="site-header" role="banner">
