@@ -35,7 +35,7 @@
                                 class="logo"
                                 >
                             </div>
-                            <a href="#">
+                            <a href="#" class="right">
                             <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
                                 <i class="fa fa-bars"></i>
                             </div>
