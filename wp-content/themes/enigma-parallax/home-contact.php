@@ -12,7 +12,7 @@
 			
 			<div class="enigma_contact_form_fields">
 				<div id="weblizar_form"> 
-					<form role="form" method="POST"  action="#">	
+					<form role="form" method="POST"  action=<?php get_home_url()?>>	
 						<div class="enigma_contact_group col-md-6 scrollimation scale-in">
 							<label for="exampleInputEmail1">Name<small>*</small></label>
 							<input type="name" name="user_name" id="user_name" placeholder="Name" class="enigma_con_input_control">
