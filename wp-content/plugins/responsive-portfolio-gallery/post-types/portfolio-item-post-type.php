@@ -96,8 +96,10 @@ if(!class_exists('PortfolioItemPostType')){
 			
 			if($_POST['post_type'] == self::POST_TYPE && current_user_can('edit_post', $post_id)) {
 				foreach($this->_meta as $field_name){
-					// Update the post's meta field
-					update_post_meta($post_id, $field_name, $_POST[$field_name]);
+					if(isset($_POST[$field_name])){
+						// Update the post's meta field
+						update_post_meta($post_id, $field_name, $_POST[$field_name]);
+					}
 				}
 			}
 			else {
@@ -151,7 +153,17 @@ if(!class_exists('PortfolioItemPostType')){
 		public function insert_my_template($template){
 			global $post;
 			if(get_post_type( $post ) == "portfolio-item"){
-				$template = sprintf("%s/../templates/single-portfolio-item.php", dirname(__FILE__), self::POST_TYPE);
+				$themed_template = get_stylesheet_directory() . "/single-portfolio-item.php";
+                if(file_exists($themed_template)){
+                    $template = $themed_template;
+                }
+                else {
+                    $template = sprintf(
+                    				"%s/../templates/single-portfolio-item.php",
+                    				dirname(__FILE__),
+                    				self::POST_TYPE
+                    			);
+                }
 			}
 			return $template;
 		}

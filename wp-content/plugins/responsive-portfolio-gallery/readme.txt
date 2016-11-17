@@ -1,7 +1,7 @@
 === Responsive Portfolio Gallery ===
 Plugin URI: http://www.rocketship.co.nz
 Description: A responsive portfolio gallery for your website, includes switchable views, filterable categories and shortcodes for 2, 3 and 4 columns.
-Version: 1.0
+Version: 1.1.1
 Requires at least: 4.1
 Tested up to: 4.5.3
 Stable tag: trunk
@@ -76,3 +76,6 @@ Please use the WordPress <a href="http://wordpress.org/support/plugin/responsive
 * Adding default-view option to shortcode that allows the user to set the default view of the gallery
 * Adding the ability for the gallery image to link to an external URL and choose if the link with open in the current browser tab or a new tab
 * Adding the ability to choose whether website URL will open in the current browser tab or a new tab
+
+= 1.1.1 =
+* Implementing functionality to allow single-portfolio-item.php template to be used themes

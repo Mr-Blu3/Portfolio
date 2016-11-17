@@ -3,7 +3,7 @@
 Plugin Name: Responsive Portfolio Gallery
 Plugin URI: http://responsive-portfolio-gallery-demo.rocketship.co.nz/
 Description: This plugin allows for the easy creation of a responsive portfolio gallery and includes filterable categories with wonderful css transitions. 
-Version: 1.1
+Version: 1.1.1
 Author: Shane Watters
 Author URI: http://www.rocketship.co.nz
 License: GPL2

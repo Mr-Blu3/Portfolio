@@ -12,9 +12,6 @@
 	background-position: center center;
 	z-index: 9999;
 }
-.wmg-item {
-	vertical-align: top;
-}
 
 #filter-buttons{
 	float: left;
@@ -288,6 +285,6 @@
 		float: right;
 		width: 44%; 
 		margin-left: 1%;
-		padding: opx 5px;
+		padding: 0 5px;
 	}
 }

@@ -1,11 +1,8 @@
 <?php
-/**
- * Template Name: Home Page
- *
- * Displays the Home page with Parallax effects.
- *
- */
-?>
+    /**
+    * Template Name: Front Page
+    */
+?>  
 
 <?php get_header(); ?>
 <div class="bg-header"><?php
