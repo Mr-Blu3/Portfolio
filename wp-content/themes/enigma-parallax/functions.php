@@ -82,7 +82,7 @@
 			'service_1_link'=>"#",
 			'service_2_title'=>__('It/Data', 'enigma-parallax' ),
 			'service_2_icons'=>"fa fa-database",
-			'service_2_text'=>__("One day with programming is like another day in heaven. I would love to work with php, js, c#, .net, asp.net, mysql and even mongodb. Don't miss the opputunity to read my resume (see my attached <a class='resume-Cv' target='_blank' href='#'>Resume/Cv</a>).", 'enigma-parallax' ),
+			'service_2_text'=>__("One day with programming is like another day in heaven. I would love to work with php, js, c#, .net, asp.net, mysql and even mongodb. Don't miss the opputunity to read my resume (see my attached <a class='pontus-resume-Cv' target='_blank' href='#'>Resume/Cv</a>).", 'enigma-parallax' ),
 			'service_2_link'=>"#",
 			'service_3_title'=>__("Ekonomi/Seo", 'enigma-parallax' ),
 			'service_3_icons'=>"fa fa-battery-full",

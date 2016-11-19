@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         Ele_oAresume[i].onclick = function(){
             window.open(
-                'http://'+window.location.host+window.location.pathname+'wp-content/themes/enigma-parallax/images/resume-cv.pdf', '_blank'
+                'http://'+window.location.host+window.location.pathname+'wp-content/themes/enigma-parallax/images/pontus-resume-cv.pdf', '_blank'
             ).focus();
         }
 
